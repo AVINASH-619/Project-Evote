@@ -1,0 +1,40 @@
+.hidden
+{
+  display: none;
+}
+.logo
+{
+  text-align:center;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 40%;
+    list-style-type: none;
+    height: 100%;
+
+
+}
+.nav-item,
+.nav-link{
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: #a8a7a7;
+    transition: all 0.3s ease-in;
+    color:#fff;
+    
+}
+.Bar
+{
+  float: right;
+}
